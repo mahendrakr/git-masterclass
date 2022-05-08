@@ -1,0 +1,13 @@
+To know the files state
+git status
+
+To Add the file from working directory to staging area (AKA Index area)
+git add <file_name>//for one file
+git add . //for all files
+
+To place the file from staging area to local repository
+git commit -m "provide commit message"
+
+To know about the commit history
+git log
+git log --oneline
